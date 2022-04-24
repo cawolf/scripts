@@ -1,3 +1,7 @@
+export PATH=$PATH:$HOME/.arkade/bin/
+export PATH="${PATH}:${HOME}/.krew/bin"
+eval "$(oh-my-posh init bash --config ~/.poshthemes/M365Princess.omp.json)"
+
 export PHPENV_ROOT="/home/cwolf/.phpenv"
 if [ -d "${PHPENV_ROOT}" ]; then
   export PATH="${PHPENV_ROOT}/bin:${PATH}"
